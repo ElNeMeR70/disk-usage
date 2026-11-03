@@ -1,0 +1,32 @@
+{
+  "name": "@elnemer70/disk-usage",
+  "version": "1.0.0",
+  "description": "Analyze directory size breakdowns sorted by largest disk space consumers",
+  "bin": {
+    "disk-usage": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "disk",
+    "storage",
+    "du"
+  ],
+  "author": "ElNeMeR70",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElNeMeR70/disk-usage.git"
+  },
+  "homepage": "https://github.com/ElNeMeR70/disk-usage#readme",
+  "bugs": {
+    "url": "https://github.com/ElNeMeR70/disk-usage/issues"
+  }
+}
